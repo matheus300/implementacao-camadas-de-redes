@@ -11,7 +11,7 @@ host = '127.0.0.1'
 port = 8000
 
 # variaveis de transmissao
-transmissionServer = 15
+transmissionServer = 100
 gargalo = transmissionServer
 macServidor = Mac.address
 

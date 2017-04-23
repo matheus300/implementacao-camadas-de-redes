@@ -1,6 +1,6 @@
 =begin
 	Camada física
-	Servidor
+	Cliente
 =end
 
 require 'socket'
@@ -43,7 +43,7 @@ macClient = Mac.addr
 macServer = 'aa:aa:aa:aa:aa:aa'
 
 # variaveis de configuracao da transmissao
-transmissionClient = 20
+transmissionClient = 100
 transmissionServer = infinito
 gargalo = transmissionClient
 
